@@ -1,0 +1,10 @@
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\bin\Release\Mas500SupportToolsVB.exe
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\bin\Release\Mas500SupportToolsVB.pdb
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\bin\Release\Mas500SupportToolsVB.xml
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Release\Mas500SupportToolsVB.frmProgramCompare.resources
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Release\Mas500SupportToolsVB.Resources.resources
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Release\Mas500SupportToolsVB.vbproj.GenerateResource.Cache
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Release\Mas500SupportToolsVB.exe
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Release\Mas500SupportToolsVB.xml
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Release\Mas500SupportToolsVB.pdb

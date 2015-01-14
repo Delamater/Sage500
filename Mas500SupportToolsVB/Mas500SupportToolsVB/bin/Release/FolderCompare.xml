@@ -1,0 +1,221 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FolderCompare
+</name>
+</assembly>
+<members>
+<member name="M:FolderCompare.FileMgr.ExportDataTableToCSV(System.String,System.Windows.Forms.DataGridView)">
+	<summary>
+ Exports the contents of a DataGridView to a CSV file 
+ </summary>
+	<param name="strPath">The location to store the file</param>
+	<param name="dgv">A reference to the DataGridView</param>
+	<remarks></remarks>
+</member><member name="T:FolderCompare.myFileInfo.FileInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FolderCompare.myFileInfo.FileInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FolderCompare.myFileInfo.FileInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FolderCompare.myFileInfo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="M:FolderCompare.GridManager.FormatGrid(System.Windows.Forms.DataGridView)">
+	<summary>
+ Provided a DataGridView, this method will format that grid 
+ to the standard look
+ </summary>
+	<param name="dgv"></param>
+	<remarks></remarks>
+</member><member name="P:FolderCompare.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:FolderCompare.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:FolderCompare.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:FolderCompare.CommonRoutines.ShowMessageBox(System.Exception,System.Windows.Forms.MessageBoxIcon,System.Windows.Forms.MessageBoxButtons)">
+	<summary>
+ Displays a common messagesbox
+ </summary>
+	<param name="ex">Provide a reference to the exception object</param>
+	<param name="icon">Set the MessageBoxIcon type</param>
+	<param name="buttons">Set the MessageBoxButton</param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.CommonRoutines.ShowMessageBox(System.String,System.Windows.Forms.MessageBoxIcon,System.Windows.Forms.MessageBoxButtons)">
+	<summary>
+ Displays a common messagebox.
+ </summary>
+	<param name="strMessage">Provide a string message</param>
+	<param name="icon">Set the MessageBoxIcon type</param>
+	<param name="buttons">Set the MessageBoxButton</param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.EncryptionMgr.GetChecksumSha25(System.IO.FileInfo)">
+	<summary>
+ Provided a file, this routine will return a checksum string
+ </summary>
+	<param name="myFile"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.EncryptionMgr.GetChecksumSha25(System.Collections.Specialized.HybridDictionary)">
+	<summary>
+ Provided an array of files within a HybridDictionary, this 
+ routine will one string for all the files combined
+ </summary>
+	<param name="myArray"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.EncryptionMgr.GetChecksumSha25(System.String)">
+	<summary>
+ Provided some string, this routine will return back an encrypted version
+ of that string
+ </summary>
+	<param name="strToEncrypt"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.PopulateComboBoxes">
+	<summary>
+ Populates all combo boxes with default values
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.CreateSourceFile">
+	<summary>
+ Creates a source file in a specified location, as defined by the file manager class, 
+ if there is a location set in the txtComparisonFolderPath textbox
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.CompareSourceFiles">
+	<summary>
+ If there are two files set for comparison, this routine will compare 
+ the output and store it within the datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.HandleProgressBar(System.Boolean)">
+	<summary>
+ Handles the progress bar that lets the user know if 
+ processing still remains for any given activity
+ </summary>
+	<param name="isStart"></param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.CheckSchemaFiles">
+	<summary>
+ The files to compare must have the correct XML schema, or the 
+ comparison will not work properly. This routing checks those 
+ comparison files to ensure they have a valid schema.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.BindGrid(FolderCompare.myFileInfo.FileInfoDataTable)">
+	<summary>
+ Bind the datasource to the grid. This is necessary to allow viewing of the data
+ within the grid, as well as filtering of the grid. 
+ </summary>
+	<param name="dt"></param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.FilterDataGridView">
+	<summary>
+ A rudemintary implementation of search capabilities on the grid. 
+ This can be enhanced for later versions of this product.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.ExportToExcel">
+	<summary>
+ Export the grid, in it's presently filtered state, to a Excel file
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.btnCreateSourceFile_Click(System.Object,System.EventArgs)">
+	<summary>
+ Command to generate the source file
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.btnCompare_Click(System.Object,System.EventArgs)">
+	<summary>
+ Command to compare the source files
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.cboViewSettings_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ The user may instruct the program to only view certain types of rows. This filter provides 
+ the user basic functionality to show which rows are different, the same, modified, or missing. 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.btnGetComparisonFilesList_Click(System.Object,System.EventArgs)">
+	<summary>
+ Retrieves the file to compare to (not intended to be the base file)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.btnGetBaseFileList_Click(System.Object,System.EventArgs)">
+	<summary>
+ Retrieves the file to comapre agains (intended to be the base folder file listing)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.btnSetComparisonFolder_Click(System.Object,System.EventArgs)">
+	<summary>
+ Sets the text value of the destination folder (not the base folder)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.txtComparisonFolderPath_TextChanged(System.Object,System.EventArgs)">
+	<summary>
+ If the comparison/destination folder has a value witin it, then enable the button to create a source file
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.btnExportToExcel_Click(System.Object,System.EventArgs)">
+	<summary>
+ Instructions to export the contents of the DataGridView to an Excel file
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.dgvComparison_CellMouseUp(System.Object,System.Windows.Forms.DataGridViewCellMouseEventArgs)">
+	<summary>
+ Show a context menu to export the contents of the DataGridView
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.txtFileNameToSearch_TextChanged(System.Object,System.EventArgs)">
+	<summary>
+ Instructions to filter the grid based on the contents of the search textbox
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:FolderCompare.frmProgramCompare.btnCancelSearchFilterValue_Click(System.Object,System.EventArgs)">
+	<summary>
+ Cancel the File Name To Search filter criteria
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,16 @@
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Debug\myCompare.vbproj.GenerateResource.Cache
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Debug\myCompare.frmProgramCompare.resources
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Debug\myCompare.Resources.resources
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Debug\myCompare.frmDbCompare.resources
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\bin\Debug\FolderCompare.exe.manifest
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\bin\Debug\FolderCompare.application
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\bin\Debug\FolderCompare.exe
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\bin\Debug\FolderCompare.pdb
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\bin\Debug\FolderCompare.xml
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Debug\myCompare.frmAbout.resources
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Debug\FolderCompare.exe.manifest
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Debug\FolderCompare.application
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Debug\FolderCompare.exe
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Debug\FolderCompare.xml
+C:\Documents and Settings\BDelamater\My Documents\Visual Studio 2008\Mas500SupportToolsVB\Mas500SupportToolsVB\obj\Debug\FolderCompare.pdb
